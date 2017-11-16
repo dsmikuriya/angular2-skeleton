@@ -1,0 +1,4 @@
+<!-- 任意のテキストを入力 -->
+<textarea #searchBox class="form-control" rows="5" placeholder="解析したい文字を入力してください"></textarea>
+<!-- クリックとともに形態素解析実施 -->
+<button class="btn btn-primary" type="button" (click)="parse(searchBox.value)">形態素解析を実施する</button>

@@ -1,0 +1,16 @@
+<h3>Results</h3>
+
+<table class="table table-striped table-hover table-bordered">
+    <tr>
+        <th>surface</th>
+        <th>baseForm</th>
+        <th>feature</th>
+        <th>reading</th>
+    </tr>
+    <tr *ngFor="let token of morphApiService.getTokens()">
+        <td>{{token.surface}}</td>
+        <td>{{token.baseForm}}</td>
+        <td>{{token.feature}}</td>
+        <td>{{token.reading}}</td>
+    </tr>
+</table>
