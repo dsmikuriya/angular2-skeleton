@@ -21,8 +21,8 @@ export class MorphFormFileComponent implements OnInit {
         if (fileList.length > 0) {
             let file: File = fileList[0];
 
-            if (file.size > 10000) {
-                this.errorMessage = 'ファイルサイズが大きすぎます。10KB以下のファイルを選択してください。';
+            if (file.size > 1000000) {
+                this.errorMessage = 'ファイルサイズが大きすぎます。1M以下のファイルを選択してください。';
                 return;
             }
 
