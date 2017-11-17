@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
 import { MorphApiService } from '../../../services/morph-api.service';
-import { Token } from '../../../models/token';
 
 @Component({
   selector: 'app-morph-form',

@@ -1,8 +1,12 @@
 body {
     /* bootstrapの隠れる問題解決策 */
-    padding-top: 70px;
+    padding-top: 80px;
 }
 
 .table th, .table td {
     padding: 5px;
+}
+
+.jumbotron {
+    padding: 2rem 2rem;
 }

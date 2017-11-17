@@ -10,8 +10,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MorphFormComponent } from './components/morph/morph-form/morph-form.component';
+import { MorphFormFileComponent } from './components/morph/morph-form-file/morph-form-file.component';
 import { MorphViewComponent } from './components/morph/morph-view/morph-view.component';
 import { MorphListComponent } from './components/morph/morph-list/morph-list.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
     declarations: [
@@ -19,8 +21,10 @@ import { MorphListComponent } from './components/morph/morph-list/morph-list.com
         HeaderComponent,
         FooterComponent,
         MorphFormComponent,
+        MorphFormFileComponent,
         MorphViewComponent,
-        MorphListComponent
+        MorphListComponent,
+        HomeComponent
     ],
     imports: [
         BrowserModule,

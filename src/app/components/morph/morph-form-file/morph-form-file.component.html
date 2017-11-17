@@ -1,0 +1,11 @@
+<strong>指定したファイルから形態素解析</strong><br>
+<p></p>
+
+<div *ngIf="errorMessage" class="alert alert-dismissible alert-danger">
+    {{errorMessage}}
+</div>
+
+<input type="file" (change)="fileUpload($event)" placeholder="ファイルをアップロードする" accept=".txt,.csv,.tsv">
+<small class="form-text text-muted">
+    ファイルサイズは10KB以下。文字コードはUTF-8。
+</small>
